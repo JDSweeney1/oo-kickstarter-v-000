@@ -9,6 +9,6 @@ class Project
   end
 
   def add_backer(backer)
-    sefl.backers << backer
+    self.backers << backer
   end
 end
