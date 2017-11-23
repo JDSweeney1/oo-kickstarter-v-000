@@ -12,5 +12,6 @@ class Project
     self.backers << backer
     if !backer.backed_projects.include?(self)
       backer.back_project(self)
+    end
   end
 end
