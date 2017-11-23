@@ -7,4 +7,8 @@ class Project
     @title = title
     @backers = []
   end
+
+  def add_backer(backer)
+    sefl.backers << backer
+  end
 end
